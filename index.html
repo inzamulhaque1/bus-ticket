@@ -27,10 +27,10 @@
     <script src="https://kit.fontawesome.com/ebb5aeb04a.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="font-raleway container mx-auto">
+<body class="font-raleway">
 
     <!-- Navbar -->
-    <nav class="navbar  bg-white px-4 py-2 flex justify-between items-center mt-5">
+    <nav class="navbar container mx-auto  bg-white px-4 py-2 flex justify-between items-center mt-5">
 
         <!-- Left Section (Logo) -->
         <div class="flex-none">
@@ -60,98 +60,101 @@
         </div>
     </nav>
 
-    <!-- hero section -->
+    <main class="font-raleway container mx-auto">
+        <!-- hero section -->
 
-    <div class="relative">
-        <section class="relative mt-5">
-            <!-- Background Image -->
-            <div class="absolute inset-0 bg-cover bg-center rounded-3xl"
-                style="background-image: url('./images/banner.png');">
+        <div class="relative">
+            <section class="relative mt-5">
+                <!-- Background Image -->
+                <div class="absolute inset-0 bg-cover bg-center rounded-3xl"
+                    style="background-image: url('./images/banner.png');">
+                </div>
+
+                <div
+                    class="container mx-auto flex flex-col items-center justify-center relative  text-center text-white">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-4 mt-16">End-to-End Travel with <br> <span
+                            class="text-[#1DD100]">P Paribahan</span></h1>
+                    <p class="text-lg md:text-xl mb-6 space-y-6">Yes, you can run unit tests and view the results
+                        directly
+                        within the app.
+                        <br> The integrated testing features allow for a streamlined.
+                    </p>
+                    <a href="#" class="bg-[#1DD100] w-2/8 text-black rounded-xl px-6 py-3 font-semibold mb-36">Buy
+                        Ticket</a>
+                </div>
+
+
+
+
+            </section>
+
+            <div class="space-x-6 lg:absolute -bottom-16 left-80">
+
+                <div class="stats shadow border-b-2 border-lime-500 p-5">
+                    <div>
+                        <img src="./images/people.png" alt="">
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">500K+</div>
+                        <div class="stat-desc">Registered users</div>
+                    </div>
+                </div>
+
+
+                <div class="stats shadow border-b-2 border-lime-500 p-5">
+                    <div>
+                        <img src="./images/ticket-cupon.png" alt="">
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">1.7 lacks</div>
+                        <div class="stat-desc">Tickets sold</div>
+                    </div>
+                </div>
+
+                <div class="stats shadow border-b-2 border-lime-500 p-5">
+                    <div>
+                        <img src="./images/stoppage.png" alt="">
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">80K+</div>
+                        <div class="stat-desc">Rental partners</div>
+                    </div>
+                </div>
+
             </div>
-
-            <div class="container mx-auto flex flex-col items-center justify-center relative  text-center text-white">
-                <h1 class="text-4xl md:text-6xl font-bold mb-4 mt-16">End-to-End Travel with <br> <span
-                        class="text-[#1DD100]">P Paribahan</span></h1>
-                <p class="text-lg md:text-xl mb-6 space-y-6">Yes, you can run unit tests and view the results directly
-                    within the app.
-                    <br> The integrated testing features allow for a streamlined.
-                </p>
-                <a href="#" class="bg-[#1DD100] w-2/8 text-black rounded-xl px-6 py-3 font-semibold mb-36">Buy
-                    Ticket</a>
-            </div>
-
-
-
-
-        </section>
-
-        <div class="space-x-6 lg:absolute -bottom-16 left-80">
-
-            <div class="stats shadow border-b-2 border-lime-500 p-5">
-                <div>
-                    <img src="./images/people.png" alt="">
-                </div>
-                <div class="stat">
-                    <div class="stat-value">500K+</div>
-                    <div class="stat-desc">Registered users</div>
-                </div>
-            </div>
-
-
-            <div class="stats shadow border-b-2 border-lime-500 p-5">
-                <div>
-                    <img src="./images/ticket-cupon.png" alt="">
-                </div>
-                <div class="stat">
-                    <div class="stat-value">1.7 lacks</div>
-                    <div class="stat-desc">Tickets sold</div>
-                </div>
-            </div>
-
-            <div class="stats shadow border-b-2 border-lime-500 p-5">
-                <div>
-                    <img src="./images/stoppage.png" alt="">
-                </div>
-                <div class="stat">
-                    <div class="stat-value">80K+</div>
-                    <div class="stat-desc">Rental partners</div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- Coupon -->
-
-    <section class="">
-
-        <div class="mt-28">
-            <h1 class="text-center text-black font-bold text-5xl">Best offers for you</h1>
         </div>
 
-        <div class="flex justify-center space-x-10 mt-6">
+        <!-- Coupon -->
 
-            <div class="mt-5">
+        <section class="">
 
-                <div class="relative">
+            <div class="mt-28">
+                <h1 class="text-center text-black font-bold text-5xl">Best offers for you</h1>
+            </div>
 
-                    <div class="card bg-[#FFBF0F] w-[550px] shadow-xl">
-                        <div class="card-body grid grid-cols-2">
+            <div class="flex justify-center space-x-10 mt-6">
 
-                            <div>
-                                <h2 class="card-title text-4xl font-bold">15% OFF</h2>
-                                <p class="text-2xl">on your next purchase</p>
-                                <p class="text-xl text-gray-600">use by January 2024</p>
-                            </div>
-                            <div class="flex items-center justify-center">
-                                <h2 class="card-title text-3xl">NEW 15</h2>
+                <div class="mt-5">
+
+                    <div class="relative">
+
+                        <div class="card bg-[#FFBF0F] w-[550px] shadow-xl">
+                            <div class="card-body grid grid-cols-2">
+
+                                <div>
+                                    <h2 class="card-title text-4xl font-bold">15% OFF</h2>
+                                    <p class="text-2xl">on your next purchase</p>
+                                    <p class="text-xl text-gray-600">use by January 2024</p>
+                                </div>
+                                <div class="flex items-center justify-center">
+                                    <h2 class="card-title text-3xl">NEW 15</h2>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
 
 
-                    <!-- <div class="absolute">
+                        <!-- <div class="absolute">
     
                         <div class="rounded-full h-6 w-6 bg-black absolute -top-3 left-72">
                         </div>
@@ -159,174 +162,707 @@
                         <div class="rounded-full h-6 w-6 bg-black absolute -top-44 left-72"></div>
                     </div> -->
 
-                    <div class="absolute left-72 top-0 bottom-0 flex flex-col items-center">
-                        <div class="rounded-full h-6 w-6 bg-white -top-3 absolute"></div>
-                        <div class="border-2 border-dashed border-white h-full "></div> <!-- Vertical line -->
-                        <div class="rounded-full h-6 w-6 bg-white -bottom-3 absolute"></div>
+                        <div class="absolute left-72 top-0 bottom-0 flex flex-col items-center">
+                            <div class="rounded-full h-6 w-6 bg-white -top-3 absolute"></div>
+                            <div class="border-2 border-dashed border-white h-full "></div> <!-- Vertical line -->
+                            <div class="rounded-full h-6 w-6 bg-white -bottom-3 absolute"></div>
+                        </div>
+
                     </div>
+
+
 
                 </div>
 
+                <div class="mt-5">
 
+                    <div class="relative">
 
-            </div>
+                        <div class="card bg-[#F78C9C] w-[550px] shadow-xl">
+                            <div class="card-body grid grid-cols-2">
 
-            <div class="mt-5">
-
-                <div class="relative">
-
-                    <div class="card bg-[#F78C9C] w-[550px] shadow-xl">
-                        <div class="card-body grid grid-cols-2">
-
-                            <div>
-                                <h2 class="card-title text-4xl font-bold">20% OFF</h2>
-                                <p class="text-2xl">on your next purchase</p>
-                                <p class="text-xl text-gray-600">use by January 2024</p>
-                            </div>
-                            <div class="flex items-center justify-center">
-                                <h2 class="card-title text-3xl">Couple20</h2>
+                                <div>
+                                    <h2 class="card-title text-4xl font-bold">20% OFF</h2>
+                                    <p class="text-2xl">on your next purchase</p>
+                                    <p class="text-xl text-gray-600">use by January 2024</p>
+                                </div>
+                                <div class="flex items-center justify-center">
+                                    <h2 class="card-title text-3xl">Couple20</h2>
+                                </div>
                             </div>
                         </div>
+
+
+
+                        <div class="absolute left-72 top-0 bottom-0 flex flex-col items-center">
+                            <div class="rounded-full h-6 w-6 bg-white -top-3 absolute"></div>
+                            <div class="border-2 border-dashed border-white h-full "></div> <!-- Vertical line -->
+                            <div class="rounded-full h-6 w-6 bg-white -bottom-3 absolute"></div>
+                        </div>
+
                     </div>
-
-
-
-                    <div class="absolute left-72 top-0 bottom-0 flex flex-col items-center">
-                        <div class="rounded-full h-6 w-6 bg-white -top-3 absolute"></div>
-                        <div class="border-2 border-dashed border-white h-full "></div> <!-- Vertical line -->
-                        <div class="rounded-full h-6 w-6 bg-white -bottom-3 absolute"></div>
-                    </div>
-
                 </div>
+
             </div>
 
-        </div>
-
-        <div class="flex justify-center py-9">
-            <a href=""
-                class="px-10 py-4 border-2 border-[#1DD100] text-[#1DD100] rounded-2xl text-lg font-bold text-center">See
-                All Offers</a>
-        </div>
+            <div class="flex justify-center py-9">
+                <a href=""
+                    class="px-10 py-4 border-2 border-[#1DD100] text-[#1DD100] rounded-2xl text-lg font-bold text-center">See
+                    All Offers</a>
+            </div>
 
 
-    </section>
+        </section>
 
 
-    <!-- Ticket -->
+        <!-- Ticket -->
 
-    <section class="bg-slate-100 border-t-2 border-lime-500 rounded-t-[100px] mt-10">
+        <section class="bg-slate-100 border-t-2 border-lime-500 rounded-t-[100px] mt-10 pb-16">
 
-        <h1 class="text-center text-black font-bold text-3xl mt-28">P.H Paribahan</h1>
-        <p class="text-center text-gray-600 pt-3 w-2/5 mx-auto">Yes, you can run unit tests and view the results
-            directly within the app. The integrated testing features allow for a streamlined .</p>
+            <h1 class="text-center text-black font-bold text-3xl mt-28">P.H Paribahan</h1>
+            <p class="text-center text-gray-600 pt-3 w-2/5 mx-auto">Yes, you can run unit tests and view the results
+                directly within the app. The integrated testing features allow for a streamlined .
+            </p>
 
-        <div>
+            <!-- destination time -->
+
+            <div>
 
 
-            <div class="mt-5 pb-9">
+                <div class="mt-5 pb-9">
 
-                <div class="relative w-5/6 mx-auto">
+                    <div class="relative w-5/6 mx-auto">
 
-                    <div class="card bg-white  shadow-xl ">
+                        <div class="card bg-white  shadow-xl ">
 
-                        <div class="card-body grid grid-cols-10 ">
+                            <div class="card-body grid grid-cols-10 ">
 
-                            <div class="col-span-8">
+                                <div class="col-span-8">
 
-                                <div class="flex items-center justify-between w-11/12">
-                                    <div class="flex">
-                                        <img src="./images/bus-logo.png" alt="">
-    
-                                        <div class="ml-5">
-                                            <h1 class="text-lg text-black font-bold">Greenline Paribahan</h1>
-                                            <p class="text-base text-gray-500">Coach-009-WEB ! AC_Business</p>
+                                    <div class="flex items-center justify-between w-11/12">
+                                        <div class="flex">
+                                            <img src="./images/bus-logo.png" alt="">
+
+                                            <div class="ml-5">
+                                                <h1 class="text-lg text-black font-bold">Greenline Paribahan</h1>
+                                                <p class="text-base text-gray-500">Coach-009-WEB ! AC_Business</p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Seat Number -->
+
+                                        <div class="flex items-center p-4 rounded-lg bg-[#1DD10026] ">
+                                            <img src="./images/seat-green.png" alt="">
+                                            <p class="ml-3 text-[#1DD100] font-semibold">
+                                                <span>40</span>
+                                                Seats left
+                                            </p>
                                         </div>
                                     </div>
 
-                                    <!-- Seat Number -->
-    
-                                    <div class="flex items-center p-4 rounded-lg bg-[#1DD10026] ">
-                                        <img src="./images/seat-green.png" alt="">
-                                        <p class="ml-3 text-[#1DD100] font-semibold">
-                                            <span>40</span>
-                                            Seats left
-                                        </p>
+                                    <div class="bg-[#F7F8F8] mt-3 p-5 rounded-xl w-11/12">
+
+                                        <div>
+                                            <div class="flex items-center justify-between">
+                                                <h1 class="text-lg text-gray-600 font-semibold">Route</h1>
+                                                <h1 class="text-lg text-black font-semibold">Dhaka - Sylhet</h1>
+                                            </div>
+                                            <div class="border-b-2 border-gray-400 border-dashed mt-3 mb-6"></div>
+                                        </div>
+
+                                        <div>
+                                            <div class="flex items-center justify-between">
+                                                <h1 class="text-lg text-gray-600 font-semibold">Departure Time</h1>
+                                                <h1 class="text-lg text-black font-semibold">9:00 PM</h1>
+                                            </div>
+                                            <div class="border-b-2 border-gray-400 border-dashed mt-3"></div>
+                                        </div>
+
+                                        <div class="mt-6 grid grid-cols-3 space-x-6 text-center">
+
+                                            <div class=" p-4 rounded-lg bg-[#0307120D]">
+                                                <p class=" text-[#030712CC] font-semibold">
+                                                    Dropping Point - Bogura
+                                                </p>
+                                            </div>
+
+                                            <div class=" p-4 rounded-lg bg-[#0307120D]">
+                                                <p class=" text-[#030712CC] font-semibold">
+                                                    Boarding Point - Laxmipur
+                                                </p>
+                                            </div>
+
+                                            <div class=" p-4 rounded-lg bg-[#0307120D]">
+                                                <p class=" text-[#030712CC] font-semibold">
+                                                    Est. Time - 11 Hour
+                                                </p>
+                                            </div>
+                                        </div>
+
                                     </div>
+
+
+
                                 </div>
 
-                                <div class="bg-[#F7F8F8] mt-3 p-5 rounded-xl w-11/12">
+                                <div class=" col-span-2 flex items-center justify-center ">
 
-                                    <div>
-                                        <div class="flex items-center justify-between">
-                                            <h1 class="text-lg text-gray-600 font-semibold">Route</h1>
-                                            <h1 class="text-lg text-black font-semibold">Dhaka - Sylhet</h1>
-                                        </div>
-                                        <div class="border-b-2 border-gray-400 border-dashed mt-3 mb-6"></div>
-                                    </div>
-
-                                    <div>
-                                        <div class="flex items-center justify-between">
-                                            <h1 class="text-lg text-gray-600 font-semibold">Departure Time</h1>
-                                            <h1 class="text-lg text-black font-semibold">9:00 PM</h1>
-                                        </div>
-                                        <div class="border-b-2 border-gray-400 border-dashed mt-3"></div>
-                                    </div>
-
-                                    <div class="mt-6 grid grid-cols-3 space-x-6 text-center">
-
-                                        <div class=" p-4 rounded-lg bg-[#0307120D]">                                           
-                                            <p class=" text-[#030712CC] font-semibold">
-                                                Dropping Point - Bogura
-                                            </p>
-                                        </div>
-
-                                        <div class=" p-4 rounded-lg bg-[#0307120D]">                                           
-                                            <p class=" text-[#030712CC] font-semibold">
-                                                Boarding Point - Laxmipur
-                                            </p>
-                                        </div>
-
-                                        <div class=" p-4 rounded-lg bg-[#0307120D]">                                           
-                                            <p class=" text-[#030712CC] font-semibold">
-                                                Est. Time - 11 Hour
-                                            </p>
-                                        </div>
+                                    <div class="flex flex-col justify-center items-center">
+                                        <img src="./images/fare.png" alt="">
+                                        <h2 class="card-title text-3xl">500 Taka</h2>
+                                        <p class="text-xl text-gray-600">Per Seat</p>
                                     </div>
 
                                 </div>
 
-                                
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="absolute right-72 top-0 bottom-0 flex flex-col items-center">
+                            <div class="rounded-full h-6 w-6 bg-slate-100 -top-3 absolute"></div>
+                            <div class="border-2 border-dashed border-slate-100 h-full "></div> <!-- Vertical line -->
+                            <div class="rounded-full h-6 w-6 bg-slate-100 -bottom-3 absolute"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!--  seat design-->
+
+            <div class="w-10/12 mx-auto grid grid-cols-12 bg-white rounded-3xl p-8">
+
+                <div class="col-span-8 p-3">
+
+                    <div>
+                        <h1 class="text-2xl font-bold">Select Your Seat</h1>
+                    </div>
+                    <div class="border-b-2 border-gray-400 border-dashed mb-3 mt-3"></div>
+                    <div class="flex items-center justify-between ">
+                        <div class="flex space-x-3">
+                            <img src="./images/seat-gray.png" alt="">
+                            <h1 class="text-lg text-gray-600 font-semibold">Available</h1>
+                        </div>
+                        <div class="flex space-x-3">
+                            <img src="./images/seat-green-filled.png" alt="">
+                            <h1 class="text-lg text-[#1DD100] font-semibold">Selected</h1>
+                        </div>
+                    </div>
+                    <div class="border-b-2 border-gray-400 border-dashed mt-3"></div>
+
+                    <div>
+                        <div class="grid grid-cols-12 mt-3">
+
+                            <div class="col-span-10">
+
+                            </div>
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500">
+
+                                <i class="fa-solid text-2xl fa-dharmachakra hover:text-white"></i>
 
                             </div>
 
-                            <div class=" col-span-2 flex items-center justify-center ">
+                        </div>
+                        <!-- A -->
 
-                                <div class="flex flex-col justify-center items-center">
-                                    <img src="./images/fare.png" alt="">
-                                    <h2 class="card-title text-3xl">500 Taka</h2>
-                                    <p class="text-xl text-gray-600">Per Seat</p>
-                                </div>
+                        <div class="grid grid-cols-10 mt-3 space-x-8">
 
+                            <div class="col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+                                <h1 class="font-semibold text-gray-500">A</h1>
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">A1</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">A2</h1>
+                            </div>
+
+                            <div class=" col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">A3</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">A4</h1>
                             </div>
 
 
                         </div>
+
+                        <!-- B -->
+                        <div class="grid grid-cols-10 mt-3 space-x-8">
+
+                            <div class="col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+                                <h1 class="font-semibold text-gray-500">B</h1>
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">B1</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">B2</h1>
+                            </div>
+
+                            <div class=" col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">B3</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">B4</h1>
+                            </div>
+
+
+                        </div>
+
+                        <!-- C -->
+                        <div class="grid grid-cols-10 mt-3 space-x-8">
+
+                            <div class="col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+                                <h1 class="font-semibold text-gray-500">C</h1>
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">C1</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">C2</h1>
+                            </div>
+
+                            <div class=" col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">C3</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">C4</h1>
+                            </div>
+
+
+                        </div>
+
+                        <!-- D -->
+                        <div class="grid grid-cols-10 mt-3 space-x-8">
+
+                            <div class="col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+                                <h1 class="font-semibold text-gray-500">D</h1>
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">D1</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">D2</h1>
+                            </div>
+
+                            <div class=" col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">D3</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">D4</h1>
+                            </div>
+
+
+                        </div>
+
+                        <!-- E -->
+                        <div class="grid grid-cols-10 mt-3 space-x-8">
+
+                            <div class="col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+                                <h1 class="font-semibold text-gray-500">E</h1>
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">E1</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">E2</h1>
+                            </div>
+
+                            <div class=" col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">E3</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">E4</h1>
+                            </div>
+
+
+                        </div>
+
+                        <!-- F -->
+                        <div class="grid grid-cols-10 mt-3 space-x-8">
+
+                            <div class="col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+                                <h1 class="font-semibold text-gray-500">F</h1>
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">F1</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">F2</h1>
+                            </div>
+
+                            <div class=" col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">F3</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">F4</h1>
+                            </div>
+
+
+                        </div>
+
+                        <!-- G -->
+                        <div class="grid grid-cols-10 mt-3 space-x-8">
+
+                            <div class="col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+                                <h1 class="font-semibold text-gray-500">G</h1>
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">G1</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">G2</h1>
+                            </div>
+
+                            <div class=" col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">G3</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">G4</h1>
+                            </div>
+
+
+                        </div>
+
+                        <!-- H -->
+                        <div class="grid grid-cols-10 mt-3 space-x-8">
+
+                            <div class="col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+                                <h1 class="font-semibold text-gray-500">H</h1>
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">H1</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">H2</h1>
+                            </div>
+
+                            <div class=" col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">H3</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">H4</h1>
+                            </div>
+
+
+                        </div>
+
+                        <!-- I -->
+                        <div class="grid grid-cols-10 mt-3 space-x-8">
+
+                            <div class="col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+                                <h1 class="font-semibold text-gray-500">I</h1>
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">I1</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">I2</h1>
+                            </div>
+
+                            <div class=" col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">I3</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">I4</h1>
+                            </div>
+
+
+                        </div>
+
+                        <!-- J -->
+                        <div class="grid grid-cols-10 mt-3 space-x-8">
+
+                            <div class="col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+                                <h1 class="font-semibold text-gray-500">J</h1>
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">J1</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">J2</h1>
+                            </div>
+
+                            <div class=" col-span-1 bg-[#ffffff1a] rounded-lg px-5 py-3 text-center text-xl ">
+
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">J3</h1>
+                            </div>
+
+                            <div
+                                class=" col-span-2 bg-[#0307121A] rounded-lg px-5 py-3 text-center text-xl hover:bg-orange-500 ">
+                                <h1 class="font-semibold text-gray-500 hover:text-white">J4</h1>
+                            </div>
+
+
+                        </div>
+
                     </div>
 
 
+                </div>
 
-                    <div class="absolute right-72 top-0 bottom-0 flex flex-col items-center">
-                        <div class="rounded-full h-6 w-6 bg-slate-100 -top-3 absolute"></div>
-                        <div class="border-2 border-dashed border-slate-100 h-full "></div> <!-- Vertical line -->
-                        <div class="rounded-full h-6 w-6 bg-slate-100 -bottom-3 absolute"></div>
+                <div class="border-l-2 border-gray-400 border-dashed col-span-1 ml-12"></div>
+
+                <!-- form section -->
+
+                <div class="col-span-3">
+
+                    <h1 class="text-2xl font-bold">Select Your Seat</h1>
+                    <div class="border-b-2 border-gray-400 border-dashed mt-3"></div>
+
+                    <!-- count number of seat -->
+
+                    <div class="bg-[#F7F8F8] p-4 mt-4 rounded-xl">
+
+                        <div class=" flex justify-between">
+                            <p class="font-bold">Seat <span
+                                    class="bg-[#1DD100] pl-2 pr-2 rounded-full font-bold text-white">0</span> </p>
+                            <p class="font-bold">class</p>
+                            <p class="font-bold">price</p>
+                        </div>
+
+                        <div class="border-b-2 border-gray-400 border-dashed mt-3"></div>
+
+                        <!-- selected seat number -->
+
+                        <div class="space-y-3 mt-5">
+
+                            <div class=" flex justify-between">
+                                <p class="text-gray-400">c2</p>
+                                <p class="text-gray-400">economy</p>
+                                <p class="text-gray-400">550</p>
+                            </div>
+
+                            <div class=" flex justify-between">
+                                <p class="text-gray-400">c2</p>
+                                <p class="text-gray-400">economy</p>
+                                <p class="text-gray-400">550</p>
+                            </div>
+
+                        </div>
+
+                        <div class="border-b-2 border-gray-400  mt-3"></div>
+
+                        <!--  total price -->
+
+                        <div class=" flex justify-between mt-2">
+                            <p class="font-semibold">Total Price</p>
+                            <p class="font-semibold">1100</p>
+                        </div>
+
+                        <!-- coupon Input -->
+
+                        <div class="p-3 bg-white rounded-3xl mt-4">
+                            <input type="text" name="" id="" placeholder="Have Any Coupon ?">
+                            <button class="rounded-md bg-[#1DD100] text-white px-2 py-2">Apply</button>
+                        </div>
+
+                        <!-- grand total -->
+
+                        <div class="flex justify-between">
+                            <h1 class="font-semibold">Grand total</h1>
+                            <p class="font-semibold">1100</p>
+                        </div>
+
+                    </div>
+
+                    <!-- user input -->
+
+                    <div class="mt-5">
+                        <h1 class="mb-2 font-bold">Passenger Name*</h1>
+
+                        <input type="text" name="" id="" placeholder="Enter Your Name"
+                            class="rounded-xl border border-gray-400 p-3 w-full">
+
+                        <h1 class="mb-2 font-bold mt-3">Phone Number*</h1>
+
+                        <input type="text" name="" id="" placeholder="Enter Your Phone Number"
+                            class="rounded-xl border border-gray-400 p-3 w-full">
+
+                        <h1 class="mb-2 font-bold mt-3">Email ID</h1>
+
+                        <input type="text" name="" id="" placeholder="Enter Your Email"
+                            class="rounded-xl border border-gray-400 p-3 w-full">
+
+                        <button class="rounded-xl bg-[#1DD100] text-white w-full p-4 mt-4">Next</button>
+                    </div>
+
+                    <div class="text-gray-400 underline flex justify-between text-sm mt-4">
+                        <p>Trams And Condition</p>
+                        <p>Cancellation Policy</p>
                     </div>
 
                 </div>
+
             </div>
 
 
+
+        </section>
+    </main>
+
+    <footer class="bg-[#030712] pt-6">
+
+        <div class="container mx-auto">
+            <div class="flex justify-between mt-6">
+                <div>
+                    <h1 class="text-3xl text-white font-bold">P-Ticket</h1>
+                    <p class="text-lg text-white">P-Ticket is a digital platform to make your daily commuting better.</p>
+                </div>
+                <div>
+                    <p class="text-lg text-white">Download Our App</p>
+
+                    <div class="border-2 border-white p-4 rounded-xl flex mt-4 text-white space-x-3 bg-black">
+                        <img src="./images/playstore.png" alt="">
+                        <div>
+                            <p>Get it on</p>
+                            <p class="text-xl">Google Play</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-b-2 border-gray-400 border-dashed mt-7"></div>
+
+
+            <div class="mt-4 flex justify-between pb-10"> 
+                <p class="text-base text-gray-500 font-semibold">@all rights reserved, P-Ticket services limited.2024</p>
+
+                <div>
+                    <ul class="flex space-x-5 font-semibold text-white">
+                        <li>Terms & condition</li>
+                        <li>Return & refund policy</li>
+                        <li>Privacy policy</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
-    </section>
+
+    </footer>
 
 
 
